@@ -16,3 +16,12 @@ console.log(" nikhil jain ");
  }
 
  generateOTP();
+
+ let x = "Nikhil";
+ console.log(` Value of  x = ${x}`)
+ console.log(` Type of x is : ${typeof(x)}`);
+
+ // Thii shows we can update our variables 
+
+ x = "Nikhil Jain";
+ console.log(` Now, The value of x is : ${x}`)
