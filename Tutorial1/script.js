@@ -33,7 +33,22 @@ console.log(" nikhil jain ");
 
  {
     let z = 20
+    console.log(z)
  }
 
- console.log(z) // it will throw an error // Because z is only accessible inside the block 
- 
+//  console.log(z)  it will throw an error // Because z is only accessible inside the block 
+
+ // Use of const keyword in variable creation 
+
+ const digit = 23
+ console.log(" Digit value is : ", digit)
+//  digit = digit + 1;  Error part ..... can't assign value to the constant variable 
+
+
+        // Data Types in JS  1) primitive Datatypes 2) Non Primitive Data Types 
+                // Primitive Data types -> The data types that are already created and provided by JS 
+     //Non - Primitive Data types  -> That are created by the user like arrays , objects 
+
+
+
+
