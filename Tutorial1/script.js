@@ -25,3 +25,15 @@ console.log(" nikhil jain ");
 
  x = "Nikhil Jain";
  console.log(` Now, The value of x is : ${x}`)
+
+ let p = 1 + "1"
+ console.log(typeof(p)) // string 
+
+ // Note : variable created by let is Blocked Scope it will only work inside the blocks 
+
+ {
+    let z = 20
+ }
+
+ console.log(z) // it will throw an error // Because z is only accessible inside the block 
+ 
