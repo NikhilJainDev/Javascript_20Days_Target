@@ -26,6 +26,14 @@ let getMultiplication =  function(num1 , num2){
 
 console.log(getMultiplication(5,12));
 
+// Sum of Numbers - Arrow Function 
+
+let getSum = (w,x,y,z) => {
+    let ans =   w + x + y + z;
+    return ans;
+}
+
+console.log(getSum(11,12,13,14));
 
 
 
